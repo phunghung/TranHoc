@@ -4,7 +4,7 @@ import sys
 from datetime import datetime
 
 def ScanPort():
-    remoteServer = input("Enter a domain to scan: ")
+    remoteServer = input("Enter a domain/ip to scan: ")
     start = int(input("Enter starting port number : "))
     end = int(input("Enter ending port number : "))
     remoteServerIP = socket.gethostbyname(remoteServer)
