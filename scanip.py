@@ -1,7 +1,3 @@
-import socket
-import subprocess
-import sys
-from datetime import datetime
 from socket import *
 
 # 65535
